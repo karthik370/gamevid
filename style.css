@@ -195,7 +195,8 @@ a:hover{
 #games:hover{
     box-shadow: -15px -15px 5px  rgb(226, 63, 63);
     transition: all;
-    transform: translateX(30px) translateY(30px);
-    transition-timing-function: step-end;
+    transition-delay: 0s;
+    transform: translateY(30px) translateZ(30px);
+    transition-timing-function: ease-in-out;
     transition-duration: 1s;
 }

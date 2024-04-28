@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration-line: none;
+}
+
+.main {
+    background-image: url("main.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 67px;
+}
+
+nav img {
+    position: relative;
+    z-index: 12;
+}
+
+nav button {
+    position: relative;
+    z-index: 12;
+}
+
+.hero {
+    height: 88.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 13;
+    color: white;
+    font-size: 1em;
+}
+
+.but {
+    padding: 3px 5px 3px 1px;
+    border-radius: 7px;
+    background-color: rgb(152, 147, 147);
+    border: 1px solid white;
+}
+
+.but-ren {
+    background-color: red;
+    color: white;
+    padding: 7px 24px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 0.5px solid white;
+}
+
+.but-ren-sn {
+    background-color: red;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 7px;
+    border: 0.5px solid white;
+}
+
+.main input {
+    padding: 7px 14px 7px 1px;
+    font-size: 18px;
+    border-radius: 7px;
+    background-color: rgb(84, 82, 82);
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(62, 62, 115);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 7vh;
+    border: 5px solid rgb(74, 74, 164);
+    margin-top: 1px;
+    border-radius: 10px 10px 10px;
+}
+
+#nv {
+    color: red;
+    font-size: 1.7em;
+    font-family: "Jersey 15", sans-serif;
+
+}
+
+#nv:hover {
+    background-color: rgb(70, 126, 142);
+    color: aliceblue
+}
+
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 6px;
+
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+input {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(235, 9, 9, 0.406);
+    color: rgb(16, 22, 140);
+    height: 4.7vh;
+    width: 20vw;
+    font-size: 1.2em;
+}
+
+.lugrasimo-regular {
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    height: 12vh;
+    font-size: 3.5em;
+    background-color: rgb(146, 177, 177);
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(110, 63, 63);
+    border: 5px solid rgb(147, 147, 165);
+    border-radius: 10px 10px 10px;
+}
+
+.imp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(81, 122, 122);
+    padding-top: 40px;
+    border: 10px solid rgb(62, 62, 115);
+    border-radius: 30px 30px 30px 30px;
+    height: 180vh;
+}
+
+#games {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(88, 223, 223);
+    border-radius: 10px;
+    height: 35vh;
+    width: 30vw;
+    box-shadow: -15px -15px 5px  white;
+
+}
+
+.img {
+    padding-top: 6px;
+    padding-right: 26px;
+}
+
+a {
+    font-size: 2em;
+    font-family: "Jersey 15", sans-serif;
+}
+button{
+    background-color: red;
+    width: 10vw;
+    height: 5vh;
+    color: azure;
+    border-radius: 7px;
+}
+.content{
+    margin-left: 24px;
+}
+a:hover{
+    color: red;
+    font-size: 2.5em;
+}
+#games:hover{
+    box-shadow: -15px -15px 5px  rgb(226, 63, 63);
+    transition: all;
+    transform: translateX(30px) translateY(30px);
+    transition-timing-function: step-end;
+    transition-duration: 1s;
+}
